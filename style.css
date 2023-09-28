@@ -1,0 +1,92 @@
+.top-menu {
+  background: #43353d;
+  box-shadow: 3px 0 7px rgba(0,0,0,.3);
+}
+.top-menu:after {
+  display: table;
+  clear: both;
+}
+
+.logo{
+  display: inline-block;
+  float:left; 
+  margin-top:2px; 
+  margin-right:10px;
+}
+
+.navbar-logo {
+  display: inline-block;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 20px;
+  line-height: 80px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin-top:2px
+}
+
+.menu-main {
+  list-style: none;
+  margin: 0;
+  float: right;
+}
+.menu-main li {display: inline-block;}
+
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.menu-main a:hover{
+  background: #A18E99;
+}
+
+.title{
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 80px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin-top:2px;
+  text-align: center;
+} 
+
+.image { 
+    float:left; /* обтекание слева */
+    margin:50px;
+    margin-top:0px;
+    padding-left: 80px;
+    padding-right: 10px;
+}
+
+.content{
+  font-family: 'Arimo', sans-serif;
+  font-size: 20px;
+  padding-right: 140px;
+}
+
+.footer{
+  border-top: 1px solid #ccc;
+  clear: both;
+  text-align: center;
+}
+
+.map { 
+    float:left; /* обтекание слева */
+    margin:50px;
+    margin-top:0px;
+    padding-left: 80px;
+    padding-right: 10px;
